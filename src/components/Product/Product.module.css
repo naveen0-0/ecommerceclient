@@ -1,0 +1,33 @@
+.product{
+    background-color: rgb(43, 42, 42);
+    border-radius: 5px;
+}
+
+.title{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: "Fira Code";
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.image{
+    width: 200px;
+    display: block;
+    height: 200px;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.price{
+    font-family: "Fira Code";
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.removeUnderline{
+    text-decoration: none;
+    color: rgb(192, 192, 192);
+}

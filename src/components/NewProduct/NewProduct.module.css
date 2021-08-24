@@ -1,0 +1,46 @@
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.head{
+    text-align: center;
+    font-size: 32px;
+    font-family: "Fira Code";
+    margin: 10px 0px;
+}
+
+.form{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title,.description,.price,.category,.image{
+    outline: none;
+    border: none;
+    border-radius: 9999px;
+    padding: 10px 12px;
+    background-color: #222;
+    color: rgb(206, 206, 206);
+    font-family: "Fira Code";
+}
+
+.submit{
+    width: 100px;
+    outline: none;
+    border: none;
+    border-radius: 9999px;
+    padding: 10px 12px;
+    cursor: pointer;
+    font-family: "Fira Code";
+    font-weight: 700;
+}
+
+.msg{
+    text-align: center;
+    font-family: "Fira Code";
+    font-size: 14px;
+    color: cornflowerblue;
+}

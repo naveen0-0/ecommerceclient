@@ -2,38 +2,56 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
+    /* background-color: #727272; */
 }
-
-
 .title{
-    flex:1;
-    text-align: center;
-    font-size: 26px;
+    font-size: 30px;
     font-family: "Fira Code";
-    color: whitesmoke;
-}
-
-.auth{
-    display: flex;
-    flex: 2;
-    align-items: center;
-    justify-content: space-around;
-
-}
-
-.signup,.login{
-    /* width: 80px; */
-    background:linear-gradient(to right, salmon,rgb(168, 109, 168));
-    padding: 4px 12px;
-    border-radius: 999999px;
-    font-family: "Fira Code";
-    color: black;
-    font-size: 14px;
+    flex: 1;
     text-align: center;
 }
 
 .removeUnderline{
-    color: whitesmoke;
     text-decoration: none;
+    color: rgb(218, 218, 218);
+}
+
+.links{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.links > div{
+    margin-right: 10px;
+}
+
+.profile{
+    cursor: pointer;
+}
+
+.profiledropdown{
+    position: absolute;
+    top: 50px;
+    right: 5%;
+    font-family: "Fira Code";
+    background-color: rgb(66, 66, 66);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.addproduct,.logout{
+    background: linear-gradient(to right, rgb(182, 131, 73),rgb(68, 102, 165));
+    text-align: center;
+    border-radius: 99999px;
+    cursor: pointer;
+    margin: 5px 0px;
+    padding: 3px 10px;
+    font-size: 14px;
 }
