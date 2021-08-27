@@ -20,12 +20,19 @@ function App() {
     const { data } = await axios.get(`${serverUrl}/auth/getuser`,{ headers : { Authorization : localStorage.getItem('shoplogintoken')}});
     if(data.statusload){
         dispatch({type:"UPDATE_USER",payload:data.user})
+    }
+  }
+  
+  const getCart = async () => {
+    const { data } = await axios.get(`${serverUrl}/auth/getcart`,{ headers : { Authorization : localStorage.getItem('shoplogintoken')}});
+    if(data.statusload){
         dispatch({type:"UPDATE_CART",payload:data.cart})
     }
   }
 
   useEffect(()=>{
     getUser();
+    getCart();
   },[])
 
   return (

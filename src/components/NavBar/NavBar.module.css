@@ -55,3 +55,18 @@
     padding: 3px 10px;
     font-size: 14px;
 }
+
+
+.cart{
+    position: relative;
+}
+
+.noofproducts{
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    font-family: "Fira Code";
+    font-size: 14px;
+    border-radius: 50%;
+    color: cornflowerblue;
+}

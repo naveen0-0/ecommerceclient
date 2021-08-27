@@ -1,0 +1,9 @@
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.title{
+    font-size: 24px;
+    font-family: "Fira Code";
+}

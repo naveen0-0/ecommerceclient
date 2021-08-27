@@ -1,0 +1,58 @@
+.cartProduct{
+    margin: 20px 0px;
+    background-color: #202020;
+    border-radius: 10px;
+}
+
+.image{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.details{
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.title,.price{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: "Fira Code";
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.price{
+    font-size: 20px;
+}
+
+.addandremove{
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Fira Code";
+}
+
+.add,.noofProducts,.remove{
+    border: 1px solid rgb(177, 177, 177);
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+.add,.remove{
+    cursor: pointer;
+}
+
+.totalprice{
+    text-align: center;
+    padding: 10px 0px;
+    font-family: "Fira Code";
+    font-size: 18px;
+    color: cornflowerblue;
+    word-wrap: break-word;
+}

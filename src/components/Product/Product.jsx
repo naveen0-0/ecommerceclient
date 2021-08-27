@@ -8,7 +8,9 @@ export default function Product({ product }) {
 
             <div className={styles.product}>
                 <div className={styles.title}>{product.title}</div>
-                <div className={styles.imagec}><img src={product.image} alt="Product" className={styles.image}/></div>
+                <div className={styles.imagec}>
+                    <img src={product.image} alt="Product" className={styles.image}/>
+                </div>
                 <div className={styles.price}>${product.price}</div>
             </div>
         </Link>
