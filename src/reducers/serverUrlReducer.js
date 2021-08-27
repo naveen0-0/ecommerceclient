@@ -1,4 +1,4 @@
-const initialvalue = "http://localhost:8000"
+const initialvalue = "https://xhoppie.herokuapp.com"
 
 export const serverUrlReducer = (state=initialvalue,action) => {
     switch (action.type) {
