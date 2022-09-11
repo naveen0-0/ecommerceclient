@@ -10,7 +10,8 @@ export default function FullProduct({ match }) {
     const [product, setProduct] = useState({})
     const [loading, setLoading] = useState(true)
     const serverUrl = useSelector(state => state.serverUrl)
-    
+    const { loggedIn } = useSelector(state => state.auth)
+
     const getProduct = async () => {
         let { data } = await axios.get(`${serverUrl}/api/product/${match.params.id}`)
         if(data.statusload){
@@ -37,7 +38,8 @@ export default function FullProduct({ match }) {
             <div className={styles.price}>${product.price}</div>
             <div className={styles.category}>{product.category}</div>
             <div className={styles.description}>{product.description}</div>
-            <button onClick={()=> AddToCart(match.params.id)} className={styles.cart}>Add to cart</button>
+            {loggedIn && <button onClick={()=> AddToCart(match.params.id)} className={styles.cart}>Add to cart</button>}
+
         </div>
     )
 }
