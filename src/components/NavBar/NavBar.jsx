@@ -20,6 +20,7 @@ export default function NavBar() {
 
     return (
         <div className={styles.container}>
+            <div className={styles.navbar}>
 
             <div className={styles.title}>
                 <Link to="/" className={styles.removeUnderline}>Shopp</Link>
@@ -71,6 +72,7 @@ export default function NavBar() {
                     </div>     
                 </div>
             )}
+            </div>
         </div>
     )
 }

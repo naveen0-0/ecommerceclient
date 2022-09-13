@@ -6,9 +6,13 @@
     background-color: #1d1c1c;
     position: sticky;
     top: 0px;
+}
+
+.navbar{
     width: 90%;
     margin: auto;
 }
+
 .title{
     font-size: 30px;
     font-family: "Fira Code";
