@@ -19,6 +19,7 @@
 
 .details{
     padding: 10px;
+    overflow: hidden;
 }
 
 .title{
