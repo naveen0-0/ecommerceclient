@@ -56,7 +56,7 @@ export default function NavBar() {
             ):(
                 <div className={styles.links}>
                     <div className={styles.profile} onClick={()=> setOpenProfileDropDown(!openprofiledropdown)}>
-                        <AiOutlineUser size={30}/>
+                        <AiOutlineUser size={24}/>
                         <div className={styles.profiledropdown} style={openprofiledropdown?{display:'flex'}:{display:'none'}}>
                                 <div className={styles.addproduct}>
                                     <Link to="/signup" className={styles.removeUnderline}>
