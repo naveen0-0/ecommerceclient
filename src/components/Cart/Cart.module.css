@@ -7,3 +7,14 @@
     font-size: 24px;
     font-family: "Fira Code";
 }
+
+.cartproducts{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+}
+
+@media screen and (max-width:500px){
+    .cartproducts{
+        display: block;
+    }
+}

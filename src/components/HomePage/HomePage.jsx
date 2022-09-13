@@ -12,6 +12,7 @@ export default function HomePage() {
 
     const getProducts = async () => {
         let { data } = await axios.get(`${serverUrl}/api/products`);
+        console.log(data);
         setProducts(data.products);
         setLoading(false);
     }
