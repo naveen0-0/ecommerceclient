@@ -6,17 +6,13 @@
     height: 200px;
 }
 
-.imagec{
-
-}
-
 .details{
     flex: 1;
 }
 
 .image{
     height: 100%;
-    width: 200px;
+    width: 140px;
     object-fit: cover;
     border-radius: 5px 0px 0px 5px;
 }
@@ -27,15 +23,16 @@
 
 .title{
     font-size: 28px;
-    text-overflow: ellipsis;
+    /* text-overflow: ellipsis;
     white-space: nowrap;
-    overflow: hidden;
+    overflow: hidden; */
+
 }
 
 .title,.price{
-    text-overflow: ellipsis;
+    /* text-overflow: ellipsis;
     white-space: nowrap;
-    overflow: hidden;
+    overflow: hidden; */
     font-family: "Fira Code";
     text-align: center;
     margin: 10px 0px;
