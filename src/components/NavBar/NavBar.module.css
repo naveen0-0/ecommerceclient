@@ -4,6 +4,8 @@
     align-items: center;
     padding: 10px;
     /* background-color: #727272; */
+    position: sticky;
+    top: 0px;
 }
 .title{
     font-size: 30px;
