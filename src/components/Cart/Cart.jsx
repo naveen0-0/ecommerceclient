@@ -6,6 +6,8 @@ import { useSelector } from 'react-redux'
 export default function Cart() {
 
     const cartProducts = useSelector(state => state.cart)
+    const { loggedIn } = useSelector(state => state.auth)
+    if(!loggedIn) return <Redirect to="/"/>
     return (
         <div className={styles.container}>
             <div className={styles.title}>Cart</div>
