@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './Cart.module.css'
 import CartProduct from '../CartProduct/CartProduct'
 import { useSelector } from 'react-redux'
+import { Redirect } from 'react-router-dom'
 
 export default function Cart() {
 
