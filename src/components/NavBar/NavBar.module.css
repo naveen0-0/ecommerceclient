@@ -1,7 +1,4 @@
 .container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 10px;
     background-color: #1d1c1c;
     position: sticky;
@@ -11,6 +8,9 @@
 .navbar{
     width: 90%;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .title{
