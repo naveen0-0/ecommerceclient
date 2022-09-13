@@ -23,17 +23,14 @@
 }
 
 .title{
-    font-size: 28px;
-    /* text-overflow: ellipsis;
+    font-size: 24px;
+    text-overflow: ellipsis;
     white-space: nowrap;
-    overflow: hidden; */
+    overflow: hidden;
 
 }
 
 .title,.price{
-    /* text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden; */
     font-family: "Fira Code";
     text-align: center;
     margin: 10px 0px;
