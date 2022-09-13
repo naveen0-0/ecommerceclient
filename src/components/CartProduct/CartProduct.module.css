@@ -24,12 +24,15 @@
     padding: 10px;
 }
 
+.title{
+    font-size: 32px;
+}
+
 .title,.price{
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
     font-family: "Fira Code";
-    font-size: 16px;
     text-align: center;
     margin: 10px 0px;
 }

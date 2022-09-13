@@ -53,13 +53,12 @@ export default function CartProduct({ cartProduct }) {
                     <div className={styles.add} onClick={() => RemoveFromCart(cartProduct.productId)}>-</div>
                     <div className={styles.noofProducts}>{cartProduct.noofProducts}</div>
                     <div className={styles.remove} onClick={() => AddToCart(cartProduct.productId)}>+</div>
-
-                    <div className={styles.totalprice}>
-                        Price : ${product.price} * {cartProduct.noofProducts} = ${NameSake(product.price,cartProduct.noofProducts)}
-                    </div>
                 </div>
+								<div className={styles.totalprice}>
+										Price : ${product.price} * {cartProduct.noofProducts} = ${NameSake(product.price,cartProduct.noofProducts)}
+								</div>
             </div>
-						
+
         </div>
     )
 }
